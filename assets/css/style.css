@@ -103,7 +103,9 @@ html{
     font-size: 30px;
     color: #fff;
 }
-
+.main-img img{
+    width: 350px;
+}
 /* ================================
 ===============Factory===============
 ===================================== */
@@ -141,6 +143,9 @@ html{
 }
 .question-link a{
     color: #fff;
+}
+.question-img img{
+    width: 700px;
 }
 .follow-head a{
     color: #b4b3b3;
