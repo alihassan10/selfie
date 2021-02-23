@@ -46,7 +46,6 @@ html{
   .btn:hover{
       background-color: transparent;
       color: #000;
-      /* border: 2px solid var(--pink); */
   }
   section{
       padding: 100px 0;
@@ -63,16 +62,40 @@ html{
 .pb-70{
     padding-bottom: 70px;
 }
+.color-white{
 
-
-
+}
 .section-title{
-    font-size: 2.1672rem;
     font-weight: bold;
     text-align: center;
 }
-
-.general-bold{
-    font-size: 1.0526rem;
+.bold{
     font-weight: bold;
+}
+
+/* ================================
+===============Factory===============
+===================================== */
+#factory{
+    background-color: green;
+}
+.factory-small-img-1{
+    width: 70px;
+}
+.factory-small-img-2{
+    width: 30px;
+}
+.factory-small-img-3{
+    width: 30px;
+}
+
+/* ================================
+===============Question===============
+===================================== */
+#question{
+    background-color: green;
+}
+
+.footer-icon a{
+    font-size: 40px;
 }
