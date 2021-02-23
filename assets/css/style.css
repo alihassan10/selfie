@@ -35,17 +35,17 @@ html{
 }
   .btn{
       text-align: center;
-      background-color: var(--pink);
+      /* background-color: var(--pink); */
       color: #fff;
       text-decoration: none;
-      font-size: 18px;
+      /* border: 2px solid var(--pink); */
       padding: 12px 20px;
       transition: .5s all ease;
-      border-radius: 50px;
+      border-radius: 10px;
   }
   .btn:hover{
       background-color: transparent;
-      color: #000;
+      color: #fff;
   }
   section{
       padding: 100px 0;
@@ -63,7 +63,7 @@ html{
     padding-bottom: 70px;
 }
 .color-white{
-
+    color: #fff;
 }
 .section-title{
     font-weight: bold;
@@ -73,11 +73,44 @@ html{
     font-weight: bold;
 }
 
+#main-banner{
+    background-image: url(../images/main-banner/main-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-icon a{
+    font-size: 40px;
+    color: #fff;
+}
+.main-btn1 .btn{
+    width: 300px;
+    background-color: #48B5B9;
+}
+.main-btn2 .btn{
+    width: 300px;
+    background-color: #44CEDE;
+}
+.main-btn3 .btn{
+    width: 300px;
+    background-color: #F8CE1D;
+}
+.main-btn4 .btn{
+    width: 370px;
+    border-radius: 0;
+    border: 2px solid #fff;
+}
+.main-right-head h2{
+    font-size: 30px;
+    color: #fff;
+}
+
 /* ================================
 ===============Factory===============
 ===================================== */
 #factory{
-    background-color: green;
+   background-image: url(../images/factory/factory.png);
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 .factory-small-img-1{
     width: 70px;
