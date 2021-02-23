@@ -31,7 +31,7 @@ html{
       float: right!important;
   }
   a:hover{
-    text-decoration: none;
+    /* text-decoration: none; */
 }
   .btn{
       text-align: center;
@@ -79,7 +79,7 @@ html{
     background-size: cover;
 }
 .main-icon a{
-    font-size: 40px;
+    font-size: 25px;
     color: #fff;
 }
 .main-btn1 .btn{
@@ -111,6 +111,7 @@ html{
    background-image: url(../images/factory/factory.png);
    background-repeat: no-repeat;
    background-size: cover;
+   color: #fff;
 }
 .factory-small-img-1{
     width: 70px;
@@ -121,14 +122,62 @@ html{
 .factory-small-img-3{
     width: 30px;
 }
+.factory-safety-link a{
+    color: #fff;
+}
 
+.logo-head{
+    color: #b4b3b3;
+}
 /* ================================
 ===============Question===============
 ===================================== */
 #question{
-    background-color: green;
+    background-image: url(../images/question/question-background.png);
+    background-repeat: no-repeat;
+   background-size: cover;
+    color: #fff;
+    /* padding: 0 0 10px 0; */
 }
-
+.question-link a{
+    color: #fff;
+}
+.follow-head a{
+    color: #b4b3b3;
+    font-size: 20px;
+}
+#group-ticket{
+    background-image: url(../images/group-ticket/group.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+#contact{
+    background-image: url(../images/contact/contact-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.contact-data a{
+    color: #fff;
+}
+#casting{
+    background-image: url(../images/casting/casting-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.casting-img img{
+    padding: 0 0 50px 0;
+}
+footer{
+    background: rgb(244,130,130);
+    color: #fff;
+}
 .footer-icon a{
     font-size: 40px;
+    color: #fff;
+}
+.footer-link a{
+    color: #fff;
 }
