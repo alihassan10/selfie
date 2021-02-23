@@ -127,6 +127,20 @@ html{
 .factory-safety-link a{
     color: #fff;
 }
+.factory-img img{
+    width: 400px;
+}
+.factory-img{
+    position: relative;
+    top: -100px;
+    left: -360px;
+    width: 650px;
+}
+.left-one-2{
+    position: relative;
+    bottom: -340px;
+    left: -110px;
+}
 
 .logo-head{
     color: #b4b3b3;
@@ -145,7 +159,7 @@ html{
     color: #fff;
 }
 .question-img img{
-    width: 700px;
+    /* width: 700px; */
 }
 .follow-head a{
     color: #b4b3b3;
@@ -156,6 +170,11 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
+}
+.group-img{
+    position: relative;
+    top: 100px;
+    right: -40px;
 }
 #contact{
     background-image: url(../images/contact/contact-background.png);
