@@ -127,21 +127,11 @@ html{
 .factory-safety-link a{
     color: #fff;
 }
-.factory-img img{
-    width: 400px;
+.factory-img2{
+    position: absolute;
+    right: 0;
+    top: 0;
 }
-.factory-img{
-    position: relative;
-    top: -100px;
-    left: -360px;
-    width: 650px;
-}
-.left-one-2{
-    position: relative;
-    bottom: -340px;
-    left: -110px;
-}
-
 .logo-head{
     color: #b4b3b3;
 }
