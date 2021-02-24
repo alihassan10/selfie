@@ -120,7 +120,27 @@ html{
     color: #fff;
 }
 .main-img img{
-    width: 350px;
+    width: 60%;
+}
+@media only screen and (max-width:385px){
+    .main-btn1 .btn{
+        width: 250px;
+        
+    }
+    .main-btn2 .btn{
+        width: 250px;
+    }
+    .main-btn3 .btn{
+        width: 250px;;
+    }
+    .main-btn4 .btn{
+        width: 250px;
+    }
+}
+@media only screen and (max-width:308px){
+    .main-right-head h1{
+        font-size: 34px;
+    }
 }
 /* ================================
 ===============Factory===============
@@ -154,6 +174,14 @@ html{
 .logo-head{
     color: #b4b3b3;
 }
+@media only screen and (max-width:575px){
+    .logo-img img{
+        width: 20%!important;
+    }
+    .logo-img{
+        text-align: center!important;
+    }
+}
 /* ================================
 ===============Question===============
 ===================================== */
@@ -186,10 +214,13 @@ html{
     background-size: cover;
     color: #fff;
 }
-.group-img{
-    position: relative;
-    top: 100px;
-    right: -40px;
+
+@media only screen and (min-width:992px){
+    .group-img img{
+        position: relative;
+        top: 100px;
+        right: -40px;
+    }
 }
 /* ================================
 ===============Contact===============
@@ -203,9 +234,20 @@ html{
 .contact-data a{
     color: #fff;
 }
-.contact-img{
-    position: relative;
-   left: 80px;
+
+@media only screen and (min-width:992px){
+    .contact-img img{
+        position: relative;
+       left: 80px;
+    }
+}
+@media only screen and (max-width:991px){
+    .contact-img img{
+        width: 40%!important;
+    }
+    .contact-img{
+        text-align: center!important;
+    }
 }
 /* ================================
 ===============Casting===============
