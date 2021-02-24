@@ -197,6 +197,7 @@ html{
 footer{
     background: rgb(244,130,130);
     color: #fff;
+    padding: 20px 0;
 }
 .footer-icon a{
     font-size: 40px;
