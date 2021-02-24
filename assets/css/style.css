@@ -73,6 +73,9 @@ html{
     font-weight: bold;
 }
 
+/* ================================
+===============Main Banner===============
+===================================== */
 #main-banner{
     background-image: url(../images/main-banner/main-background.png);
     background-repeat: no-repeat;
@@ -86,18 +89,31 @@ html{
     width: 300px;
     background-color: #48B5B9;
 }
+.main-btn1 .btn:hover{
+    background-color: #86c0c2; 
+}
 .main-btn2 .btn{
     width: 300px;
     background-color: #44CEDE;
+}
+.main-btn2 .btn:hover{
+    background-color: #b0ecf3; 
 }
 .main-btn3 .btn{
     width: 300px;
     background-color: #F8CE1D;
 }
+.main-btn3 .btn:hover{
+    background-color: #f5d762; 
+}
 .main-btn4 .btn{
     width: 370px;
     border-radius: 0;
     border: 2px solid #fff;
+}
+.main-btn4 .btn:hover{
+    color: #ff5e94;
+    background-color: #fff;
 }
 .main-right-head h2{
     font-size: 30px;
@@ -132,6 +148,9 @@ html{
     right: 0;
     top: 0;
 }
+/* ================================
+===============Logo===============
+===================================== */
 .logo-head{
     color: #b4b3b3;
 }
@@ -151,10 +170,16 @@ html{
 .question-img img{
     /* width: 700px; */
 }
+/* ================================
+===============Follow===============
+===================================== */
 .follow-head a{
     color: #b4b3b3;
     font-size: 20px;
 }
+/* ================================
+===============Group-Ticket===============
+===================================== */
 #group-ticket{
     background-image: url(../images/group-ticket/group.png);
     background-repeat: no-repeat;
@@ -166,6 +191,9 @@ html{
     top: 100px;
     right: -40px;
 }
+/* ================================
+===============Contact===============
+===================================== */
 #contact{
     background-image: url(../images/contact/contact-background.png);
     background-repeat: no-repeat;
@@ -175,15 +203,22 @@ html{
 .contact-data a{
     color: #fff;
 }
+.contact-img{
+    position: relative;
+   left: 80px;
+}
+/* ================================
+===============Casting===============
+===================================== */
 #casting{
     background-image: url(../images/casting/casting-background.png);
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
 }
-.casting-img img{
-    padding: 0 0 50px 0;
-}
+/* ================================
+===============Footer===============
+===================================== */
 footer{
     background: rgb(244,130,130);
     color: #fff;
