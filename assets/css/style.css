@@ -85,6 +85,9 @@ html{
     font-size: 25px;
     color: #fff;
 }
+.main-icon img{
+    width: 15%;
+}
 .main-btn1 .btn{
     width: 300px;
     background-color: #48B5B9;
@@ -127,6 +130,9 @@ html{
         width: 250px;
         
     }
+    .main-icon img{
+        width: 22%;
+    }
     .main-btn2 .btn{
         width: 250px;
     }
@@ -136,10 +142,18 @@ html{
     .main-btn4 .btn{
         width: 250px;
     }
+    .footer-icon a{
+        font-size: 30px!important;
+    }
 }
 @media only screen and (max-width:308px){
     .main-right-head h1{
         font-size: 34px;
+    }
+}
+@media only screen and (max-width:510px){
+    .main-icon a{
+        font-size: 120%;
     }
 }
 /* ================================
@@ -176,7 +190,7 @@ html{
 }
 @media only screen and (max-width:575px){
     .logo-img img{
-        width: 20%!important;
+        width: 25%!important;
     }
     .logo-img{
         text-align: center!important;
@@ -215,13 +229,6 @@ html{
     color: #fff;
 }
 
-@media only screen and (min-width:992px){
-    .group-img img{
-        position: relative;
-        top: 100px;
-        right: -40px;
-    }
-}
 /* ================================
 ===============Contact===============
 ===================================== */
@@ -242,6 +249,9 @@ html{
     }
 }
 @media only screen and (max-width:991px){
+    .main-icon{
+        margin-bottom: 30px;
+    }
     .contact-img img{
         width: 40%!important;
     }
